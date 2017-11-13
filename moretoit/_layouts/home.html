@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+<div class="home">
+  
+  {{ content }}
+
+  {% assign post = site.posts.first %}
+  <video class="home-video" autoplay>
+    <source src="{{ post.video | relative_url }}" type="video/mp4">
+    Error!
+  </video>
+
+</div>
