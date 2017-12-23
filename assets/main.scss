@@ -56,18 +56,24 @@ div, p, a {
 }
 
 .content {
+  flex: 1;
   flex-grow: 1;
 }
 
 .navigation {
   flex-grow: 0;
-  margin-right: 24px;
+  margin-right: 64px;
 }
 
 .nav-title {
   font-weight: 600;
   margin-bottom: 24px;
   text-transform: uppercase;
+}
+
+.nav-logo {
+  margin-bottom: 16px;
+  width: 200px;
 }
 
 .menu {
@@ -82,6 +88,10 @@ div, p, a {
 
 .page-link:visited {
   color: black;
+}
+
+.page-title {
+  text-transform: lowercase;
 }
 
 .home-video {

@@ -1,22 +1,21 @@
 <div class="navigation">
-  {% assign default_paths = site.pages | map: "path" %}
-  {% assign page_paths = site.header_pages | default: default_paths %}
-
-  <h1 class="nav-title">MoreTo It</h1>
+  <a href="{{ site.url }}">
+    <img class="nav-logo" alt="Moreto it" src="{{site.url}}/assets/img/logo.png"/>
+  </a>
 
   <div class="menu">
-    <a class="page-link" href="about">
+    <a class="page-link" href="{{ site.url }}/about">
       About
     </a>
-    <a class="page-link" href="contact">
+    <a class="page-link" href="{{ site.url }}/contact">
       Contact
     </a>
-    <a class="page-link" href="stories">
+    <!-- <a class="page-link" href="{{ site.url }}/stories">
       Stories
-    </a>
-    <a class="page-link" href="subscribe">
+    </a> -->
+    <!-- <a class="page-link" href="{{ site.url }}/subscribe">
       Subscribe
-    </a>
+    </a> -->
     <a class="page-link" href="https://www.youtube.com/channel/{{ site.youtube | escape }}" target="_blank">
       YouTube
     </a>
@@ -24,5 +23,4 @@
       Instagram
     </a>
   </div>
-
 </div>

@@ -203,14 +203,18 @@ div, p, a { font-family: 'Questrial', sans-serif; font-size: 18px; }
 
 .wrapper::after { display: none; }
 
-.content { flex-grow: 1; }
+.content { flex: 1; flex-grow: 1; }
 
-.navigation { flex-grow: 0; margin-right: 24px; }
+.navigation { flex-grow: 0; margin-right: 64px; }
 
 .nav-title { font-weight: 600; margin-bottom: 24px; text-transform: uppercase; }
+
+.nav-logo { margin-bottom: 16px; width: 200px; }
 
 .menu { text-align: right; }
 
 .page-link { color: black; display: block; margin: 8px 0; }
 
 .page-link:visited { color: black; }
+
+.page-title { text-transform: lowercase; }
