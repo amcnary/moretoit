@@ -19,7 +19,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Want to live a better life? Just remember that there's More To It
 baseurl: "" # should be moretoit for git previewing but "" for all other envs
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-youtube: UCVGe2G2XoSK0bG4B1qKIleA
+youtube: UCZpb-VKvmPzSo5N1ZbwyKTw
 instagram: moreto.it
 
 # Build settings
