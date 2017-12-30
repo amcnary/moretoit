@@ -3,7 +3,8 @@ layout: post
 title:  "Welcome to Jekyll!"
 date:   2017-10-22 23:17:04 -0700
 categories: jekyll update
-videoUrl: https://www.youtube.com/embed/nFwMTG6T_PI?rel=0&amp;controls=0
+videoUrl: https://www.youtube.com/embed/k3AMFJTXMY8?rel=0&amp;controls=0&amp;showinfo=0
+
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
