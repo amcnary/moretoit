@@ -1,9 +1,18 @@
 ---
-layout: page
+layout: archive
 title: Stories
 permalink: /stories/
 ---
 
-<div class="stories-header">
-	Stories
+<div class="archive-post-container">
+    {% for post in site.posts %}
+      <a class="archive-post-link" href="{{ post.url }}">
+        <div class="archive-post-thumbnail"
+            style="background-image: url({{ site.url }}/assets/thumbnails/{{ post.thumbnail }});">
+          <div class="archive-post-title">
+            {{ post.title }}
+          </div>
+        </div>
+      </a>
+    {% endfor %}
 </div>
