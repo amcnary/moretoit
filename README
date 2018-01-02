@@ -1,3 +1,29 @@
+To make a new post, you'll need three things:
+
+  1) A YT video embed link. To get this, go to the video's page, click SHARE, then click "embed". Uncheck all of the embed options. You'll see a bunch of html inside of an <iframe> tag. The only part of this that you need is the link from the src="[link]" part (it'll look like "https://www.youtube.com/embed/SOME_LONG_CODE?OPTIONS").
+
+  2) A thumbnail. You can get this from wherever you like (YT or Instagram or wherever). Move the image file into the /assets/thumbnails file. Make sure that whatever is in the content has the relevant image part centered, since it'll get cropped to fit in our grid and only the center info might remain.
+
+  3) An article. This will need to be in either html or markdown format. You can read about markdown at https://daringfireball.net/projects/markdown/.
+
+To make a new post, create a new file under the _posts/ directory. The filename must be in the format YYYY-MM-DD-title.html or YYYY-MM-DD-title.html. For more information about this, check out https://jekyllrb.com/docs/posts/.
+
+
+Additionally, each post file needs to have some information at the beginning of the file. That information should be:
+
+---
+layout: post
+title:  "[title]"
+date:   YYYY-MM-DD HH:MM:00 -0700
+categories: fashion first
+thumbnail: [filename from item 2]
+videoUrl: [video url from item 1]
+---
+[post content]
+
+
+
+// Other notes for Amanda:
 Font imports:
 font-family: 'Poiret One', cursive;
 font-family: 'Quicksand', sans-serif;
